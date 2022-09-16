@@ -1,0 +1,310 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*start header style*/
+
+body{
+
+    background: #fff url(../img/fundo.png) repeat-x;
+    
+
+}
+
+#body_content{
+
+    width: 750px;
+    margin: 0 auto;
+
+}
+
+#header_site{
+    
+    height: 150px;
+    background: url(../img/detalhe-topo.png) no-repeat top right;
+    padding-top: 25px ; 
+
+}
+
+ul{
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+#header_nav ul{
+
+    margin-top: 30px;
+    background: #B10333;
+    float: left;
+
+}
+
+#header_nav ul li{
+
+    float: left;
+    
+}
+
+#header_nav ul a{
+
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    display: block;
+    font-size: 0.9em;
+    background: url(../img/divisor.png) no-repeat center left;
+
+}
+
+#header_nav ul li a:hover{
+
+    color: #69001d ;
+
+}
+
+#header_nav ul .first a{
+
+    background: none;
+
+}
+
+body.home #header_nav a#home,
+body.brasil #header_nav a#brasil,
+body.internacional #header_nav a#internacional,
+body.economia #header_nav a#economia,
+body.saude #header_nav a#saude,
+body.ciencia #header_nav a#ciencia,
+body.fotos #header_nav a#fotos{
+
+    background: #de003e;
+
+}
+
+/*end header style*/
+
+/*start columns content style*/
+
+#content{
+
+    margin-top: 60px;
+    
+}
+
+#nocontent{
+
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+#main_content{
+
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 195px;
+
+}
+
+#two_columns #main_content{
+
+    width: 555px;
+
+}
+
+#one_column #main_content{
+
+    width: 750px;
+    margin: 0 0 20px 0;
+
+}
+
+#second_content{
+
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 15px;
+
+}
+
+#side_bar{
+
+    float: left;
+    width: 180px;
+    margin: 0 0 20px -750px;
+
+}
+
+#content_footer{
+
+    color: #fff;
+    margin: 0 auto;
+    width: 750px;
+
+}
+
+.box{
+
+    background: url(../img/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+
+}
+
+.box h2{
+
+    padding: 5px;
+    background: #294c71;
+    font-size: 1.1em;
+    color: #fff;
+    margin: 0 0 10px 0;
+
+}
+
+.box_content{
+
+    background: #fff;
+    padding: 5px;
+
+}
+
+/*end columns content style*/
+
+/*start side bar content style*/
+
+#side_bar ul a{
+
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+
+} 
+
+#side_bar ul a:hover{
+
+    background: #f9f9f9 url(../img/marcador.png) left center no-repeat;
+    padding-left: 20px;
+    color: #a1a1a1;
+
+}
+
+.box input{
+
+    font-size: 0.9em;
+    width: 125px;
+    padding: 5px;
+    margin: 5px 0px;
+    background: #fff;
+
+}
+
+.box input#submit{
+
+    color: #fff;
+    background: #69001d;
+    border: none;
+
+}
+
+.box label{
+
+    display: block;
+    cursor: pointer;
+
+}
+
+/*end side bar content style*/
+
+/*start style content area*/
+
+.box_content h3{
+
+    font-size: 0.8em;
+    padding: 3px;
+    display: inline;
+    text-transform: uppercase;
+    color: #fff;
+    background: #69001d;
+
+}
+
+.box_content img{
+
+    width: 99%;
+    padding: 3px;
+    margin: auto;
+    padding: 3px;
+
+}
+
+/*end style content area*/
+
+
+/*start style content list*/
+
+
+.list_content li {
+
+    padding: 5px;
+    height: 65px;
+    border-bottom: 1px solid #ccc;
+    background: #fff; 
+
+}
+
+.list_content li a img{
+
+    width: 80px;
+    margin:  5px;
+    float: left;
+
+}
+
+.list_content li a {
+
+    text-decoration: none;
+
+}
+
+.list_content li a h3 {
+
+    font-size: 0.8em;
+    padding-top: 3px;
+    color: #294c71;
+    text-transform: uppercase;
+
+}
+
+.list_content li a p {
+
+    font-size: 0.7em;
+    color: #000;
+
+}
+
+.list_content li:hover {
+
+    background: #eee;
+
+}
+
+/*end style content list*/
+
+footer{
+
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+    
+}
